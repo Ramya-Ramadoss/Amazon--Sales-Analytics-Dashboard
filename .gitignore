@@ -97,3 +97,4 @@ data/raw/*.xlsx
 
 # Processed/cleaned CSV files (large, generated)
 data/processed/*.csv
+*.csv
