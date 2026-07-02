@@ -62,7 +62,6 @@ Amazon-Sales-Analytics/
 │
 ├── dashboard/
 │      Amazon Dashboard.xlsx         # Premium Excel Dashboard with native charts
-│      Dashboard Screenshot.png      # High-resolution screenshot of the dashboard
 │
 ├── reports/
 │      Business_Report.pdf           # Automated print-ready executive summary
@@ -74,7 +73,6 @@ Amazon-Sales-Analytics/
 │      sales_trend.png               # Monthly sales & profit trend line
 │      top_products.png              # Top 10 products horizontal bar chart
 │      payment_mode.png              # Preferred payment mode pie chart
-│      dashboard.png                 # Mockup dashboard image
 │
 ├── requirements.txt                 # Project dependencies
 ├── README.md                        # Portfolio documentation
