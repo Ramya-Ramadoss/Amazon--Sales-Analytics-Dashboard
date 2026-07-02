@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:FFB6C1,20:FFDAB9,40:FFFACD,60:C1FFC1,80:ADD8E6,100:D8BFD8&text=DEVTown%20MINI%20PROJECT&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
+</p>
+
 # Amazon Sales Analytics Dashboard & Business Intelligence System
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
