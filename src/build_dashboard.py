@@ -95,10 +95,10 @@ def create_excel_dashboard(processed_csv_path="data/processed/cleaned_sales.csv"
     
     # C. KPI Cards Layout (Row 4 to 6)
     kpis = [
-        ("TOTAL SALES", total_sales, "$#,##0.00", "B", "C"),
-        ("TOTAL PROFIT", total_profit, "$#,##0.00", "E", "F"),
+        ("TOTAL SALES", total_sales, "₹#,##0.00", "B", "C"),
+        ("TOTAL PROFIT", total_profit, "₹#,##0.00", "E", "F"),
         ("TOTAL ORDERS", total_orders, "#,##0", "H", "I"),
-        ("AVG ORDER VALUE", avg_sales, "$#,##0.00", "K", "L"),
+        ("AVG ORDER VALUE", avg_sales, "₹#,##0.00", "K", "L"),
         ("NET MARGIN", profit_margin, "0.00%", "N", "O")
     ]
     
@@ -154,12 +154,12 @@ def create_excel_dashboard(processed_csv_path="data/processed/cleaned_sales.csv"
         
         c_sales = ws_dash.cell(row=row_idx, column=3, value=row['Sales'])
         c_sales.font = FONT_DATA
-        c_sales.number_format = "$#,##0.00"
+        c_sales.number_format = "₹#,##0.00"
         c_sales.border = BORDER_THIN
         
         c_profit = ws_dash.cell(row=row_idx, column=4, value=row['Profit'])
         c_profit.font = FONT_DATA
-        c_profit.number_format = "$#,##0.00"
+        c_profit.number_format = "₹#,##0.00"
         c_profit.border = BORDER_THIN
         
         row_idx += 1
@@ -187,12 +187,12 @@ def create_excel_dashboard(processed_csv_path="data/processed/cleaned_sales.csv"
         
         c_sales = ws_dash.cell(row=row_idx, column=7, value=row['Sales'])
         c_sales.font = FONT_DATA
-        c_sales.number_format = "$#,##0.00"
+        c_sales.number_format = "₹#,##0.00"
         c_sales.border = BORDER_THIN
         
         c_profit = ws_dash.cell(row=row_idx, column=8, value=row['Profit'])
         c_profit.font = FONT_DATA
-        c_profit.number_format = "$#,##0.00"
+        c_profit.number_format = "₹#,##0.00"
         c_profit.border = BORDER_THIN
         
         row_idx += 1
@@ -221,12 +221,12 @@ def create_excel_dashboard(processed_csv_path="data/processed/cleaned_sales.csv"
         
         c_sales = ws_dash.cell(row=row_idx, column=11, value=row['Sales'])
         c_sales.font = FONT_DATA
-        c_sales.number_format = "$#,##0.00"
+        c_sales.number_format = "₹#,##0.00"
         c_sales.border = BORDER_THIN
         
         c_profit = ws_dash.cell(row=row_idx, column=12, value=row['Profit'])
         c_profit.font = FONT_DATA
-        c_profit.number_format = "$#,##0.00"
+        c_profit.number_format = "₹#,##0.00"
         c_profit.border = BORDER_THIN
         
         row_idx += 1

@@ -168,4 +168,4 @@ Based on our final pipeline analysis of the **100,000 transaction records**:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ✍️ Author
-- **Ramadoss** - *Senior Data Analyst & BI Developer*
+- **Ramya Ramadoss** - *Senior Data Analyst & BI Developer*

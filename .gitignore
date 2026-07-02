@@ -89,3 +89,11 @@ venv.bak/
 .vscode/
 .idea/
 .gemini/
+# -------------------------------------------------
+# Data files – keep them out of the Git history
+# -------------------------------------------------
+# Raw source files (if you ever store them)
+data/raw/*.xlsx
+
+# Processed/cleaned CSV files (large, generated)
+data/processed/*.csv
